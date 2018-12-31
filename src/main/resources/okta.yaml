@@ -1,0 +1,12 @@
+okta:
+  client:
+    connectionTimeout: 30 # seconds
+    orgUrl: "https://tkirk.oktapreview.com" # i.e. https://dev-123456.oktapreview.com
+    proxy:
+      port: null
+      host: null
+      username: null
+      password: null
+    requestTimeout: 0 # seconds
+    rateLimit:
+      maxRetries: 4
